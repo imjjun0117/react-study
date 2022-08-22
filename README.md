@@ -5,6 +5,7 @@
 ## 기존 웹 동작 방식
 
 i. 서버에 데이터를 요청하면 서버 단에서 데이터 처리와 함께 view를 통째로 변경
+
 ii. Ajax를 통해 데이터를 요청하고 JSON으로 응답받아 화면을 부분적으로 변경
 
 복잡한 웹의 경우 Ajax를 통해 부분적인 화면 변경에 한계가 있음
@@ -53,8 +54,8 @@ npm start
 
 - ESLint : 문법 검사
 - Prettier - Code formatter : 코드 정렬(개인 설정 가능)
-  -- File -> preference -> setting ->prettier에서 환경 설정하거나
-  -- .prettierrc(이름 주의) 파일 생성하여 환경설정 가능
+  - File -> preference -> setting ->prettier에서 환경 설정하거나
+  - .prettierrc(이름 주의) 파일 생성하여 환경설정 가능
 
 ```
 {
